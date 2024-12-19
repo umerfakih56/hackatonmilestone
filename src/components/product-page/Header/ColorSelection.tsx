@@ -48,7 +48,7 @@ const ColorSelection = () => {
             onClick={() => dispatch(setColorSelection(color))}
           >
             {colorSelection.name === color.name && (
-              <IoMdCheckmark className="text-base text-white" />
+              <IoMdCheckmark className="text-base text-black" />
             )}
           </button>
         ))}
